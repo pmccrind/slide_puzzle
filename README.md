@@ -12,6 +12,7 @@ Using JavaScript (JS) for tile movement, CSS positioning to display the tiles in
 * Atom Text Editor (or Editor of your choice)
 * HTML structure
 * Linking of files using paths to your document, to include relative and absolute paths
+* CSS Styling by ID and Class
 * CSS positioning using background-position
 * CSS style display options
 * OPTIONAL: An image that is equal in length and width, that is also divisible by 3 (ie  an image that is 360x360 pixels, because 360/3 = 120)
