@@ -45,10 +45,32 @@ Lets begin!
 
 ## Part III Game Board Setup
 
-1.) Make a div tag give the tag an id of "table".
-2.) Make three more div tags inside of table div, giving them the id's of "row1", "row2", and "row3".
-3.) 
+1.) Make a div tag give the tag an id of "table" and a style of "display: table".
+2.) Make a div tag inside of table div, giving it the id of "row1" give it the class of "rows".
+3.) Make three div tags inside of row one with id's of, "tile1", "tile2", "tile3" giving them all the class of "tiles".
+4.) Repeat steps 3 and 4 twice making 2 more rows with id's of "row2", and "row3", and giving the inside divs the correct tile id numbers and correct class names.
+
+  * Note the id and class names here will be referenced in later parts, if you chose to name them something else you will need to keep this in mind.
+
+## Part IV CSS Styling
+
+1.) Give your webpage a background color or colors.
+2.) Align your header to be in the center of the page.
+3.) Reference the rows class and give it the following:
+  ```
+  display: table-row;
+  ```
+
+## Part V JavaScript
 
 
+
+Congratulations!! You have made your very own slide puzzle!
+
+
+## Stretch Goals
+
+* Make a button below your table that when pressed will randomize the game board
+* Display above the game board but below the heading "You Win" when the puzzle is complete.
 
 *** Work in Progress ***

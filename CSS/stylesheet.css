@@ -5,3 +5,14 @@ h2 {
 body {
   background-color: grey;
 }
+
+.rows {
+  display: table-row;
+
+}
+
+.tiles {
+  display: table-cell;
+
+
+}
