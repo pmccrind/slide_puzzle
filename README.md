@@ -101,14 +101,31 @@ The naming convention is laid out in the ```naming_convention.PNG``` image in th
 
 ## Part V JavaScript
 
-All the required JavaScript has been provided for you in this repo. However, lets take a look and see what the code does. After looking gameLogic.js file answer the following questions:
+All the required JavaScript has been provided for you in this repo. However, lets take a look and see what the code does. After taking some time and looking gameLogic.js file answer as many the following questions that you can.
 
-1.)
+### Easy
 
-Congratulations!! You have made your very own slide puzzle!
+1.) How long (not including comments) is the function swapTiles()?
 
+### Intermediate
+
+1.) For the function swapTiles() does cell1 mean cell11 or does it mean the first cell that it was given when it was called?
+
+2.) In the shuffle() function what range of values does Math.random() return?
+
+3.) What is the total number of times that the shuffle() function calls the swapTiles() function? Hint look at the range for both for loops, or look at how many total tiles there are.
+
+### Hard
+
+1.) With our grid being 3x3 in size why don't we need check from each tile position to each other tile position? Are the 4 checks provided covering every case? If not which case can you think of that isn't covered?
+
+Congratulations!! You have made your very own slide puzzle! Open up your HTML file in your internet browser of choice and play!
 
 ## Stretch Goals
 
 * Your page already shuffles if you refresh it. Your goal is to add a button below your table that when pressed will also shuffle the game board.
 * Print above the game board but below the your heading "You Win!" when the puzzle is complete.
+
+### Resources
+
+Thank you both 
