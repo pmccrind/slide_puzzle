@@ -1,5 +1,4 @@
 // TODO: add comments making functions more clear,
-// add winner function displaying you win at the top of the page when complete
 
 //Swap function used by shuffle() and by moveTile()
 //given two cells change their position

@@ -57,6 +57,8 @@ Using JavaScript (JS) for tile movement, CSS positioning to display the tiles in
 
 3.) Make a div tag inside of table div, giving it the id of "row1" give it the class of "rows".
 
+Before continuing please take a moment and look at the image ```naming_convention.PNG``` in the Images folder for how the numbering should work for the cells and for the tiles.
+
 4.) Make three div tags inside of row one with id's of, "cell11", "cell12", "cell13" and giving them each a class named ```tile1```, ```tile2```, and ```tile3```.
 
   * For each of the divs add ```onClick = moveTile(X,Y);``` where the X and Y values are equal to the first and second number that are in the id's of each of the cells. For example for the first cell it would be ```onClick = moveTile(1,1);```. The X value is the row number and the Y value is the column number.
@@ -65,21 +67,21 @@ Using JavaScript (JS) for tile movement, CSS positioning to display the tiles in
 
   * Note the id and class names here will be referenced in later parts, if you chose to name them something else you will need to keep this in mind.
 
-Here is how the first div that should be a cell should look: ```<div id = "cell11" class="tile1" onclick="moveTile(1,1);"></div>```.
+The naming convention is laid out in the ```naming_convention.PNG``` image in the images folder. Looking in the first cell of the gameboard area we see that is says it should be labeled ```cell11```. Thus here is an example of what the first div that should be a cell should look: ```<div id = "cell11" class="tile1" onclick="moveTile(1,1);"></div>```.
 
 ## Part IV CSS Styling
 
-1.) Give your webpage a background color or colors.
+1.) Give your webpage a background color by using styling the body tag.
 
 2.) For you header:
 
-  * Make the text be centered on the page.
+  * Make the text centered on the page.
   * Increase the size of the font of the header.
   * Change the color of the text of your header.
 
 3.) Reference the rows class and give it the following: ```display: table-row;```
 
-4.) Reference each of tiles class (ie tile1 ... tile9) and give them the following properties:
+4.) Reference each of tiles classes (ie tile1 to tile9) and give them the following properties:
 
   ```
   display: table-cell;
@@ -89,20 +91,24 @@ Here is how the first div that should be a cell should look: ```<div id = "cell1
   background: url(../Images/icspark_logo_360_360.PNG);
   ```
 
-  * Note if you have a custom image and it is saved in the Images folder then change the text after ```../Images/your_filename_here.jpg```
+  * Note if you have a custom image and it is saved in the Images folder then change the text after ```../Images/``` with your filename and with the extension of that file.
   * If you image is not 360 by 360 but it is equal length and width then divide the length by 3 and replace the width and height values with that value instead.
-  * Additionally, may want to change ```border``` to be a different color, if you have a mostly white image for example it be better to change it to a darker color.
+  * Additionally, you may want to change ```border``` to be a different color, if you have a mostly white image for example it be better to change it to a darker color.
 
-5.)
+5.) Reference each of the tiles class and place the tile in the correct position on the board using ```background-position```. The image ```naming_convention.PNG``` has the layout for each tile. As well as what the ```background-position``` value should be for each tile.
+
+6.) Reference tile9 and style it with ```background: white;```.
 
 ## Part V JavaScript
 
+All the required JavaScript has been provided for you in this repo. However, lets take a look and see what the code does. After looking gameLogic.js file answer the following questions:
 
+1.)
 
 Congratulations!! You have made your very own slide puzzle!
 
 
 ## Stretch Goals
 
-* Make a button below your table that when pressed will randomize the game board
-* Display above the game board but below the heading "You Win!" when the puzzle is complete.
+* Your page already shuffles if you refresh it. Your goal is to add a button below your table that when pressed will also shuffle the game board.
+* Print above the game board but below the your heading "You Win!" when the puzzle is complete.
