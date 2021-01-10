@@ -39,13 +39,15 @@ Using JavaScript (JS) for tile movement, CSS positioning to display the tiles in
 
 4.) Link the provided JS file to your HTML file, in the between the head tags.
 
-5.) If you have a custom image then save that image to the Images folder.
+5.) If you have a custom image then save that image to the Images folder now.
 
 ## Part II HTML Setup
 
 1.) Change the header of your HTML file with the title tag.
 
 2.) Make a header to be displayed above your slide puzzle using the header size of your choice.
+
+3.) In the body tag add ```h1```
 
 # *** Work in Progress ***
 
