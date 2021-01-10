@@ -36,6 +36,7 @@ function moveTile(cell) {
   var tile = cell.className;
   console.log(tile);
   var str = String(cell);
+  console.log(str);
   var row = str.slice(3,4);
   console.log(row);
   var column = str.slice(4,5);
