@@ -7,32 +7,33 @@
     <script src="JS\gameLogic.js"></script>
     <title>Slide for Lyfe</title>
   </head>
-  <body>
+
+  <body onload = "shuffle();">
+
     <h2>ICSpark Puzzle</h2>
 
     <center>
-      this is in the center of the page
 
       <div id="table" style = "display: table">
-        <div id="row1" class = "rows">
-          <div id = "cell1" class="tiles" onclick="moveTile(1,1)"> </div>
-          <div id = "cell2" class="tiles" onclick="moveTile(1,2)"> </div>
-          <div id = "cell3" class="tiles" onclick="moveTile(1,3)"> </div>
+        <div id="row1" style="display: table-row;">
+          <div id = "cell11" class="tile1" onclick="moveTile(1,1);"> </div>
+          <div id = "cell12" class="tile2" onclick="moveTile(1,2);"> </div>
+          <div id = "cell13" class="tile3" onclick="moveTile(1,3);"> </div>
         </div>
-        <div id="row2" class = "rows">
-          <div id = "cell4" class="tiles" onclick="moveTile(2,1)"> </div>
-          <div id = "cell5" class="tiles" onclick="moveTile(2,2)"> </div>
-          <div id = "cell6" class="tiles" onclick="moveTile(2,3)"> </div>
+        <div id="row2" style="display: table-row;">
+          <div id = "cell21" class="tile4" onclick="moveTile(2,1);"> </div>
+          <div id = "cell22" class="tile5" onclick="moveTile(2,2);"> </div>
+          <div id = "cell23" class="tile6" onclick="moveTile(2,3);"> </div>
         </div>
-        <div id="row3" class = "rows">
-          <div id = "cell7" class="tiles" onclick="moveTile(3,1)"> </div>
-          <div id = "cell8" class="tiles" onclick="moveTile(3,2)"> </div>
-          <div id = "cell9" class="tiles" onclick="moveTile(3,3)"> </div>
+        <div id="row3" style="display: table-row;">
+          <div id = "cell31" class="tile7" onclick="moveTile(3,1);"> </div>
+          <div id = "cell32" class="tile8" onclick="moveTile(3,2);"> </div>
+          <div id = "cell33" class="tile9" onclick="moveTile(3,3);"> </div>
         </div>
       </div>
-      after the table
     </center>
 
+    <script src="JS\gameLogic.js"></script>
   </body>
 </html>
 </!DOCTYPE html>

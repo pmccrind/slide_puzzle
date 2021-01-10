@@ -47,6 +47,8 @@ Lets begin!
 
 2.) Make a header to be displayed above your slide puzzle using the header size of your choice.
 
+*** Work in Progress ***
+
 ## Part III Game Board Setup
 
 1.) Make a div tag give the tag an id of "table" and a style of "display: table".
@@ -66,8 +68,16 @@ Lets begin!
 2.) Align your header to be in the center of the page.
 
 3.) Reference the rows class and give it the following:
+
   ```
   display: table-row;
+  ```
+
+4.) Reference the tiles class and give it the following properties:
+
+  ```
+  display: table-cell;
+
   ```
 
 ## Part V JavaScript
