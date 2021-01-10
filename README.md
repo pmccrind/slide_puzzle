@@ -134,4 +134,4 @@ Congratulations!! You have made your very own slide puzzle! Open up your HTML fi
 
 ### Resources
 
-Huge shout out to [101computing](https://www.101computing.net/sliding-puzzle/) for the basis of my version as well as the template on how I laid out the rest of the code.
+Huge shout out to [101computing](https://www.101computing.net/sliding-puzzle/) for the basis of this version as well as the template on how I laid out the rest of the code.

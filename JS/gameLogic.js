@@ -5,6 +5,7 @@ function swapTiles(cell1,cell2) {
   var temp = document.getElementById(cell1).className;
   //put the second cell in the first cell
   document.getElementById(cell1).className = document.getElementById(cell2).className;
+  //put the first cell in the second cell
   document.getElementById(cell2).className = temp;
 }
 
@@ -31,16 +32,9 @@ function shuffle() {
 //Used to move the tile where the white tile is currently, then calls
 //swapTiles() with both the cliked cell and adjacent white cell.
 //Doesn't swap is white cell is not adjacent.
-function moveTile(cell) {
-  //var cell = document.getElementById("cell"+row+column);
+function moveTile(row, column) {
+  var cell = document.getElementById("cell"+row+column);
   var tile = cell.className;
-  console.log(tile);
-  var str = String(cell);
-  console.log(str);
-  var row = str.slice(3,4);
-  console.log(row);
-  var column = str.slice(4,5);
-  console.log(column);
 
   //From the cell you cliked where is the white cell
   if (tile!="tile9") {
