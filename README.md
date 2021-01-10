@@ -23,7 +23,7 @@ Using JavaScript (JS) for tile movement, CSS positioning to display the tiles in
 * Game Logic
 * Default image
 
-Lets begin!
+# Lets begin!
 
 ## Part I Setting up
 
@@ -47,7 +47,7 @@ Lets begin!
 
 2.) Make a header to be displayed above your slide puzzle using the header size of your choice.
 
-*** Work in Progress ***
+# *** Work in Progress ***
 
 ## Part III Game Board Setup
 
@@ -92,4 +92,4 @@ Congratulations!! You have made your very own slide puzzle!
 * Make a button below your table that when pressed will randomize the game board
 * Display above the game board but below the heading "You Win" when the puzzle is complete.
 
-*** Work in Progress ***
+# *** Work in Progress ***
