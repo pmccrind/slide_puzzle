@@ -107,6 +107,8 @@ All the required JavaScript has been provided for you in this repo. However, let
 
 1.) How long (not including comments) is the function swapTiles()?
 
+2.) In the shuffle function what will console.log("cell"+row+column) print out if this is the first iteration of the first and second for loops?
+
 ### Intermediate
 
 1.) For the function swapTiles() does cell1 mean cell11 or does it mean the first cell that it was given when it was called?
@@ -117,15 +119,20 @@ All the required JavaScript has been provided for you in this repo. However, let
 
 ### Hard
 
-1.) With our grid being 3x3 in size why don't we need check from each tile position to each other tile position? Are the 4 checks provided covering every case? If not which case can you think of that isn't covered?
+1.) With our grid being 3x3 in size why don't we need check from each tile position to each other tile position? Are the 4 checks provided enough to check for all of them? If not which case can you think of that isn't covered? Hint pick a tile and then pick a touching nearby tile that acting as the "white" tile. If you were to click on your selected tile which case of the four, if any, would be selected? Repeat as needed for the remaining tiles.
 
-Congratulations!! You have made your very own slide puzzle! Open up your HTML file in your internet browser of choice and play!
+
+## Ready, set, Play!
+
+Congratulations!! You have made your very own slide puzzle! Open up your HTML file in your internet browser of choice and play! Or challenge your friends to play!
 
 ## Stretch Goals
 
 * Your page already shuffles if you refresh it. Your goal is to add a button below your table that when pressed will also shuffle the game board.
+* Make you puzzle from a 3x3 into a 4x4.
 * Print above the game board but below the your heading "You Win!" when the puzzle is complete.
 
 ### Resources
 
-Thank you both 
+Thank you to both resources below for making this tutorital a breeze. Huge shout out to <a Link= "https://www.101computing.net/"> 101computing </a> for a
+<a link = "https://codepen.io/dreamweaver1231/pen/EtzpI">Inspritation</a>, bulk of the code
