@@ -34,7 +34,11 @@ function shuffle() {
 function moveTile(cell) {
   //var cell = document.getElementById("cell"+row+column);
   var tile = cell.className;
-
+  var row = cell.slice(3,4);
+  console.log(row);
+  var column = cell.slice(4,5);
+  console.log(column);
+  
   //From the cell you cliked where is the white cell
   if (tile!="tile9") {
        //Is the white cell in the right tile?
