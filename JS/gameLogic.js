@@ -31,10 +31,9 @@ function shuffle() {
 //Used to move the tile where the white tile is currently, then calls
 //swapTiles() with both the cliked cell and adjacent white cell.
 //Doesn't swap is white cell is not adjacent.
-function moveTile(row,column) {
-  var cell = document.getElementById("cell"+row+column);
+function moveTile(cell) {
+  //var cell = document.getElementById("cell"+row+column);
   var tile = cell.className;
-  console.log(cell11.className);
 
   //From the cell you cliked where is the white cell
   if (tile!="tile9") {
