@@ -129,7 +129,7 @@ Congratulations!! You have made your very own slide puzzle! Open up your HTML fi
 ## Stretch Goals
 
 * Your page already shuffles if you refresh it. Your goal is to add a button below your table that when pressed will also shuffle the game board.
-* Make you puzzle from a 3x3 into a 4x4.
+* Make you puzzle from a 3x3 into a 4x4. Hint you will not need to modify the JS file to do this, you only need to modify the HTML and the CSS files.
 * Print above the game board but below the your heading "You Win!" when the puzzle is complete.
 
 ### Resources
